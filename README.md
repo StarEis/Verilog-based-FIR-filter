@@ -1,6 +1,6 @@
-# Verilog FIR Filter — Tang Nano 9K
+# Verilog FIR Filter
 
-A hardware low-pass FIR filter implemented on the **Gowin Tang Nano 9K** FPGA. An **ADS1115** ADC reads the input signal over I2C, the FPGA filters it, and an **MCP4725** DAC outputs the result. Input/output waveforms were measured with an **Arduino**.
+A hardware low-pass FIR filter implemented on the Gowin Tang Nano 9K FPGA. An ADS1115 ADC reads the input signal over I2C, the FPGA filters it, and an MCP4725 DAC outputs the result. Input/output waveforms were measured with an Arduino.
 
 ---
 
@@ -54,8 +54,3 @@ Run the script and paste the printed `case` block into `FIR.v`, replacing the ex
 
 ---
 
-## Dependencies
-
-- [Gowin EDA](https://www.gowinsemi.com/en/support/home/) for synthesis
-- Python 3 with `scipy`, `numpy`, `matplotlib`
-- MATLAB (for the signal generator script)
